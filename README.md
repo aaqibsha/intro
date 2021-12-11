@@ -1,174 +1,240 @@
-<html lang="en">
-    <head>
-        
-        <title>Saba Document</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <style>
-            h3 {
-               font-family: Arial, Helvetica, sans-serif;
-            }
-            body {
-                margin: 0px;
-            }
-            header {
-                background-color: black;
-                color: white;
-                height: 70px;
-            }
-            .brand {
-                width: 40%;
-             
-                height: 70px;
-                float: left;
-                text-align: center;
-            }
-            .menu {
-                width: 60%;
-                text-align: center;
-                float: right;
-                height: 70px;
-                
-            }
-            h1 {
-                line-height: 35px;
-            }
-            a {
-                color: cornsilk;
-                text-decoration: white;
-                margin-right: 50px;
-                line-height: 70px;
-            }
-            /*  Main Section */
-            main{
-                width: 100%;
-            
-               
-            }
-            .imgSection {
-                width: 40%;
-                text-align: center;
-                height: 400px;
-                float: left;
-                
-            }
-            .infoSection {
-                width: 60%;
-                float: right;
-                height: 400px;
-                
-            }
-       img {
-           border-radius: 50%;
-           margin-top: 150px;
-         
-       }
-       #div {
-           margin-top: 150px;
-          
-       }
-       table {
-           width: 100%;
+Projects
+Wiki
+Security
+Insights
+Html-and-CSS-Assignment-codes/index.html
+@pawan999333
+pawan999333 Add files via upload
+ 1 contributor
+231 lines (168 sloc)  6.61 KB
+<html>
+
+<head>
+    <title>Assignment</title>
+    <script src="https://kit.fontawesome.com/8ce2f69ccb.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #header {
+            background-color: black;
+            height: 70px;
+        }
+
+        h2 {
             text-align: center;
-       }
-       /* Footer Section */
-       footer section h2 {
-           display: inline-block;
-       }
-       
-        </style>
-    </head>
-    <body>
-          <header>
-           <nav>
-               <section class="brand">
-                  <h1>My Portfolio</h1>
-               </section>
-               <section class="menu">
-               <a href="#Home">Home</a>
-               <a href="#Home">Profile</a>
-               <a href="#Home">Resume</a>
-               <a href="#Home">Contact</a>
-               </section>
-           </nav>
-          </header>
-          <main>
-              <section class="mainSection">
-              <section class="imgSection">
-              <img 
-               
-              src="https://images.pexels.com/photos/7247412/pexels-photo-7247412.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="300px" height="300px" />
-              </section>
-              <section class="infoSection">
-               <div id="div">
-                   <h4>Hi there!!</h4>
-                   <h2>I am Saba Kauser</h2>
-                   <p>my name is saba kauser, i'm from india karnataka, i have completed
-                    my graduation in lingaraj appa engineering college bidar, i'm a
-                    student of geekster</p>
-                    <p>
-                        i have outstanding problem soliving and communication skills,
-                        which can be important for an orgonization, i love coading, and
-                        solve logical problems
-                      </p>
-                  <b>my hobbiles are playing outdoor games reading books, listening
-                    musics & watching cricket etc.</b>
-                </div>
+            color: cornsilk;
+        }
+
+        #brand {
+            line-height: 35px;
+            width: 40%;
+            height: 70px;
+            float: left;
+
+        }
+
+        #main {
+            padding: 100px;
+            width: 90%;
+
+            /* display: flex;
+            align-items: center;
+            justify-content:center; */
+
+        }
+
+
+        #d5 {
+
+            width: 60%;
+            float: Right;
+        }
+
+        span {
+            margin-right: 30px;
+            color: cornsilk;
+        }
+
+        /* #a {
+            border-radius: 50%;
+        } */
+
+        #menu {
+
+            line-height: 70px;
+            width: 60%;
+            height: 70px;
+            float: right;
+
+        }
+
+        img {
+            border-radius: 50%;
+
+
+
+        }
+
+
+        table {
+
+            text-align: center;
+            width: 100%;
+            /* padding: 100px; */
+
+
+        }
+
+        #footer {
+            background-color: black;
+            height: 200px;
+            padding: 20px;
+            margin-top: 80px;
+
+
+        }
+
+        #d8 {
+            float: center;
+            margin-left: 44%;
+            color: #fff;
+
+
+
+        }
+
+        #d5 {
+            background-color: cornsilk;
+        }
+
+        #p1 {
+            color: cornsilk;
+            margin-bottom: 0;
+        }
+
+
+        #p3 {
+            color: cornsilk;
+            /* padding-left: 46%; */
+            text-align: center;
+        }
+
+        #p4 {
+            color: cornsilk;
+            /* padding-left: 48%; */
+            text-align: center;
+
+        }
+
+        #s1 {
+            color: cornsilk;
+            /* padding-left: 48%; */
+            text-align: center;
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Header">
+        <div id="brand">
+            <h2>MyPortfolio</h2>
+        </div>
+        <div id="menu">
+            <span>HOME</span>
+            <span>PROFILE</span>
+            <span>RESUME</span>
+            <span>CONTACT</span>
+        </div>
+    </div>
+
+    <div id="main">
+
+
+        <div style="float: left;margin: 100px;margin-top: 50px;">
+            <img src="https://scontent.fjai5-1.fna.fbcdn.net/v/t39.30808-6/240737223_352647403236151_8535502004482259585_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=4rCzvTDqy2gAX9cNHdi&_nc_ht=scontent.fjai5-1.fna&oh=3d572f4c998500f4e03f695a86ebd947&oe=61B86A94"
+                width="300px" height="300px" />
+        </div>
+
+        <div>
+            <h3>Hi there!!!</h3>
+            <h1>I am pawan kumar sharma</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minima ut quod vitae dolorem sed eaque
+                nisi illum exercitationem tenetur explicabo at consectetur iusto qui facere sit deserunt voluptates,
+                sunt excepturi nihil molestias odio repellendus. Error illo incidunt aut pariatur, magni nemo quia nulla
+                atque autem, obcaecati iusto sequi tempora.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti qui, rem sit assumenda adipisci
+                perspiciatis dicta consequuntur ratione eos, praesentium enim beatae cumque eaque iure impedit id
+                nesciunt earum! Tempore odit consequatur, quas veniam natus animi provident quidem sed fuga? Aut sequi
+                labore dignissimos a illum temporibus reiciendis voluptatibus. A quae nemo nulla, voluptatem ducimus
+                delectus ab provident, inventore accusantium illo expedita rem velit accusamus saepe voluptatum magni in
+                consectetur. Perferendis sed vero voluptatem dicta laboriosam praesentium odio molestiae illum? Quos non
+                veritatis eius ducimus amet iste voluptatibus beatae tempore alias error? Repudiandae, aliquam quibusdam
+                rem ex sunt voluptatum iste!</p>
+            <p>
+                <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut eveniet voluptates, incidunt, cum
+                    ipsum illo debitis veritatis error at atque. Accusamus cupiditate nisi aliquid quae animi
+                    consequatur quod cumque!</b>
+            </p>
+        </div>
+    </div>
+
+    <div id="d2">
+        <table>
+            <tr>
+                <td>
+                    <img src="https://images.pexels.com/photos/4065864/pexels-photo-4065864.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        width="200px" height="200px" />
+                    <h3>Profile</h3>
+                </td>
+
+                <td>
+                    <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        width="200px" height="200px" />
+                    <h3>Resume</h3>
+                </td>
+
+                <td>
+                    <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        width="200px" height="200px" />
+                    <h3>Project</h3>
+                </td>
+
+                <td>
+                    <img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                        width="200px" height="200px" />
+                    <h3>Contact</h3>
+                </td>
+
+            </tr>
+
+        </table>
+
+
+
+
+        <div id="footer">
+            <div id="d8" style="font-size: 30px;">
+
+                <i class="fab fa-facebook"></i>&nbsp;&nbsp;
+                <i class="fab fa-twitter-square"></i>&nbsp;&nbsp;
+                <i class="fab fa-instagram-square"></i>&nbsp;&nbsp;
+                <i class="fab fa-linkedin"></i>&nbsp;&nbsp;
+            </div>
+           
+            <p id="p1"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus omnis culpa est, voluptate dolorem, ut esse minus, laudantium odit ex deleniti atque ipsa libero quas sit numquam repudiandae expedita.</b></p>
                 
-              </section>
-              <section >
-                <div>
-                    <table>
-                        <tr>
-                            <td>
-                                <div>
-                                  <img src="https://images.pexels.com/photos/4065864/pexels-photo-4065864.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="200px" height="200px" />
-                                  <h3>Profile</h3>
-                                </div>
-                            </td>
-                            <td>
-                              <div>
-                                <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="200px" height="200px" />
-                                <h3>Resume</h3>
-                              </div>
-                          </td>
-                          <td>
-                              <div>
-                                <img src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" width="200px" height="200px" />
-                                <h3>Project</h3>
-                              </div>
-                          </td>
-                          <td>
-                              <div>
-                                <img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="200px" height="200px" />
-                                <h3>Contact</h3>
-                              </div>
-                          </td>
-                        </tr>
-                    </table>
-                </div>
-              </section>
-             
-              </section>
-    
-          </main>
-    
-        <footer style="background-color: rgb(37, 27, 27); margin-top: 50px;padding: 20px;text-align: center; color: whitesmoke;">
-            <section>
-               <h2> <a href=""><i class="fab fa-facebook"></i></a></h2>
-               <h2> <a href=""><i class="fab fa-twitter"></i></a></h2>
-               <h2> <a href=""><i class="fab fa-instagram"></i></a></h2>
-               <h2> <a href=""><i class="fab fa-linkedin"></i></a></h2>
-    
-            </section>
-            <section>
-                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi fugiat assumenda ullam, cumque nam reiciendis, delectus porro doloribus quae incidunt culpa dolores ratione est, quo adipisci nesciunt ipsum laudantium ab!</b></p>
-            </section>
-            <section>
-                copyright &copy
-                Reserved All Rights
-                <h4>Saba Kauser</h4>
-            </section>
-        </footer>
-    
-    </body>
-    </html>
+                <p id="s1"><b>Lorem, ipsum dolor.</b></p>
+            
+            
+            
+            <p id="p3">copyright &copy; Reserved All Rights</p>
+            <h4 id="p4">Pawan Kumar Sharma</h4>
+        </div>
+
+ 
+</body>
+
+</html>
